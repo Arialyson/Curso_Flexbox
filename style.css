@@ -143,3 +143,125 @@ header nav ul li a::before {
         flex-basis: 100%;
     }
 }
+/*Caracteristicas*/
+.caract {
+    background-color: #191c03;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+.caract h3 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    text-align: center;
+    color: white;
+}
+.caract p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: white
+}
+.caract hr {
+    width: 200px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 70px;
+    border: none;
+}
+/*Grids de caracteristicas*/
+.caract .grid {
+    width: 100%;
+    display: flex;
+}
+.caract .grid li{
+    padding: 0 30px;
+    text-align: center;
+}
+.caract .grid img {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+.caract .grid h4 {
+    font-size: 1.rem;
+    color: #c3c63b;
+    margin-bottom: 30px;
+}
+@media(max-width:850px){
+    .caract .grid {
+        flex-direction: column;
+    }
+}
+/*Newsletter*/
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+.newsletter h3 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #191c03;
+}
+.newsletter p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #191c03
+}
+.newsletter hr {
+    width: 200px;
+    height: 2px;
+    background-color: #191c03;
+    margin-bottom: 70px;
+    border: none;
+}
+.newsletter form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 800px;
+}
+.newsletter input {
+    padding: 15px;
+    border: 1px solid #191c03;
+    border-radius: 4px;
+    margin-right: 15px;
+    flex: 1;
+}
+.newsletter button {
+    padding: 15px;
+    background-color: #191c03;
+    color: #c3c63b;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media(max-width:700px){
+    .newsletter input {
+        flex-basis: 100%;
+        margin-bottom: 15px;
+    }
+}
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #191c03;
+    padding: 50px 0;
+    align-items: center;
+}
+footer ul {
+    display: flex;
+    margin-bottom: 25px;
+}
+footer ul li {
+    margin-right: 10px ;
+}
+footer ul li:last-child {margin-right: 0;}
+footer ul li a {color: #c3c63b; font-size: 2rem;}
+footer p {color: #c3c63b; text-align: center; padding-bottom: 15px;}
