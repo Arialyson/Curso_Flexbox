@@ -121,7 +121,7 @@ header nav ul li a::before {
     display: flex;
     flex-wrap: wrap;
 }
-.conheca-o-hotel .grid li  {
+.conheca-o-hotel .grid li {
     height: 350px;
     padding: 20px;
     border-radius: 4px;
@@ -129,17 +129,17 @@ header nav ul li a::before {
     background-size: cover;
     background-position: center;
 }
-.conheca-o-hotel .grid ul li.small {
+.conheca-o-hotel .grid li.small {
     flex-basis: 30%;
 }
-.conheca-o-hotel .grid ul li.large {
+.conheca-o-hotel .grid li.large {
     flex-basis: 60%;
 }
 @media(max-width:700px) {
-     .conheca-o-hotel.grid ul li.small{
+    .conheca-o-hotel .grid li.small{
         flex-basis: 100%;
     }
-    .conheca-o-hotel.grid ul li.large {
+    .conheca-o-hotel .grid li.large {
         flex-basis: 100%;
     }
 }
