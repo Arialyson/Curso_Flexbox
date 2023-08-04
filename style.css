@@ -15,10 +15,12 @@ nav, Ul {
 }
 a {
     text-decoration: none;
+    font-weight: bold;
     cursor: pointer;
     opacity: 0.9;
 }
 a:hover {
+    color: rgb(194, 194, 1);
     opacity: 1;
 }
 /* Header */
